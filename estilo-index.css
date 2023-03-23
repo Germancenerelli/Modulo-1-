@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style:none;
+    text-decoration: none;
+}
+
+ul .list-foot{
+    position: absolute;
+    text-decoration: none;
+    left: 500px;
+}
+footer{
+    color: white;
+    background-color: #191919;
+}
+.icon{
+    cursor: pointer;
+    background-color: white;
+}
+.icon:hover{
+    background-color: white;
+}
+#Product, #carrito, #carr{
+    margin-top: 80px;
+}
+.princ{
+    cursor: pointer;
+    margin-top: 10px;
+    text-align: center;
+}
+ #info, 
+ #terminos, 
+ #icon{
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: 'Courier New', Courier, monospace;  
+}
+
+.titulo2{
+    margin-top: 10px;
+    cursor: pointer;
+    text-align: center
+}

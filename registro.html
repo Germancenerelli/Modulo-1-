@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="registracion-estilo.css">
+    <link rel="icon" href="iconos/jordan black.png">
+    <title>Registrarse</title>
+</head>
+<body>
+    <div class="contenedor">
+
+        <div class="login-container">
+
+            <h2 class="titulo">Registrarse</h2>
+
+            <form id="frm-register" action=""> 
+
+                <div class="cont-user">
+                    <span class="nombre"></span>
+                    <input id="Name" type="text" placeholder="Name" value="German.Cenerelli" class="usuario">
+                </div>
+                <div class="cont-user">
+                    <span class="nombre"></span>
+                    <input id="Email" type="text" placeholder="Email" value="German.Cenerelli" class="usuario">
+                 </div>
+                <div class="cont-user">
+                    <span class="nombre"></span>
+                    <input id="Password" type="password" placeholder="Ingrese su password" value="Contrasenia123" class="usuario">
+                </div>
+                <div class="cont-user">
+                    <span class="nombre"></span>
+                    <input id="Confirm-Password" type="password" placeholder="Confirm-Password" value="Contrasenia123" class="usuario">
+                </div>
+                <div class="button">
+                    <button class="button-login" type="submit">Registrarse</button>
+                    <button class="button-login2"  id="login" type="button" onclick="redireccion()">login</button>
+                </div>
+            </form>
+        </div>
+    </div>
+        <script src="registro.js"></script>
+</body>
+</html>

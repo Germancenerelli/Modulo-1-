@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2? family= Dosis & display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style:none;
+    text-decoration: none;
+}
+h3{
+    margin-top: 20px;
+}
+.video{
+    margin-top: 30px;
+}
+.titulo{
+    margin-top: 5px;
+    text-align: center;
+    align-items: center;
+}
+#texto{
+    font-size: 18px;
+    text-align: center;
+}
+footer{
+    color: white;
+    background-color: #191919;
+}   
+
+.img button{
+    margin-top: 20px;
+    margin-left: 550px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 170px;
+
+}
+.icon{
+    cursor: pointer;
+    background-color: white;
+}
+.icon:hover{
+    background-color: white;
+}
+.card, .img{
+    margin-top: 30px;
+}
+.princ{
+    cursor: pointer;
+    margin-top: 10px;
+    text-align: center;
+}
+ #info, 
+ #terminos, 
+ #icon{
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: 'Courier New', Courier, monospace;  
+}
+
+.titulo2{
+    margin-top: 10px;
+    cursor: pointer;
+    text-align: center
+}
